@@ -13,7 +13,7 @@ body{
     position: relative;
     float: right;
     margin-right: 10px;
-    margin-top: 435px;
+    margin-top: 830px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -28,38 +28,22 @@ body{
     position: absolute;
     float: right;
     margin-left: 1844px;
-    margin-top: 370px;
+    margin-top: 895px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
 }
 
-.block, .con, .info, .proj {
+.block, .con, .info, .proj, .balance {
         font-family: "WDXL Lubrifont TC", sans-serif;
         font-weight: 400;
         font-style: normal;
     color: #a6a6a6;
 
 }
-.block{
-    position: relative;
-    background: #3f403f;
-    height: 340px;
-    width: 300px;
-    border: 15px #3a3b3a solid;
-    border-left: 0;
-    border-top: 2px;
-    border-radius: 19px;
-    margin-top: 460px;
-    margin-left: 1400px;
-    color: #bababa;
-    font-size: 20px;
-    padding: 12px 6px 12px 12px;
-    word-spacing: 2px;
-    line-height: 30px;
-    z-index: 1;
-}
+
+
 .tit{
     text-align: center;
 padding: 1px;
@@ -68,11 +52,13 @@ padding: 1px;
     color: #ededed
 }
 .shapka {
+    position: relative;
     height: 70px;
     text-align: center;
     border-bottom: 4px #5f6061 solid;
     background:#3a3b3a;
-    margin-top: -839px;
+    z-index: 2;
+    margin-top: -10px;
 }
 .con{
     background: #3a3b3a;
@@ -129,8 +115,8 @@ padding: 1px;
     border: 1px solid #6e6d6d;
 }
 .zxc{
-    margin-left: 50px;
-    margin-top: 38px;
+    margin-left: 37px;
+    margin-top: -597px;
     position: relative;
     height: 800px;
     width: 600px;
@@ -139,15 +125,70 @@ padding: 1px;
     background-position: center;
     background-size: cover;
 }
-.arw1{
+.blesk{
     height: 400px;
     width: 600px;
     background-image: url('https://foni.papik.pro/uploads/posts/2024-10/foni-papik-pro-wqph-p-kartinki-svechenie-na-prozrachnom-fone-5.png');
     background-repeat: no-repeat;
     z-index: 0;
     position: relative;
-    margin-left: 1230px;
-    margin-top: -545px;
+    margin-left: 930px;
+    margin-top: -705px;
     background-size: cover;
     padding-top: 110px;
 }
+.acc{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: gray;
+    position: absolute;
+    z-index: 5;
+    background-image: url("https://pibig.info/uploads/posts/2022-11/1668718677_32-pibig-info-p-chelovechki-instagram-35.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: -714px;
+    margin-left: 1845px;
+    cursor: pointer;
+}
+.acc:active{
+    border: 1px solid #6e6d6d;
+}
+.balance{
+    position: absolute;
+    background: #4a4a4a;
+    width: 108px;
+    height: 24px;
+    border-radius: 10px;
+    color: #bababa;
+    font-size: 20px;
+    padding: 6px;
+    z-index: 10;
+    margin-left: 1707px;
+    margin-top: -706px;
+    cursor: pointer;
+}
+.balance:active{
+    border: 1px solid #6e6d6d;
+}
+
+.block{
+    position: relative;
+    height: 340px;
+    width: 300px;
+    border-radius: 19px;
+    border: 15px #3a3b3a solid;
+    border-left: 0;
+    border-top: 2px;
+    background-color: #3f403f;
+    color: #bababa;
+    padding: 12px 6px 12px 12px;
+    font-size: 20px;
+    word-spacing: 2px;
+    line-height: 30px;
+    margin-top: 264px;
+    margin-left: 1100px;
+    z-index: 1;
+}
+
